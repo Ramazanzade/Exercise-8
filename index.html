@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- <script src="./orders.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <button onclick="add()">Clik</button>
+
+
+</body>
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // function add(id) {
+    //     let add = {
+    //         companyName: "esgdsg",
+    //         contactName: "Nizam",
+    //         contactTitle: "hajdfshsklfjs",
+    //         address: {
+    //             street: "Osakuce.",
+    //             city: "Lenkaran",
+    //             region: "NULL",
+    //             postalCode: "WA1 1DP",
+    //             country: "Aze",
+    //             phone: "aejsfkjdlawklef"
+    //         }
+    //     }
+
+    //     const instance = axios.create({
+    //     baseURL: 'https://northwind.vercel.app/api',
+    //     timeout: 1000
+    // });
+
+    // instance.post("customers",add)
+    //     .then(res => {
+
+
+    //         console.log('add', res)
+
+
+    //     })
+
+
+
+
+
+
+    //     instance.delete(`customers/${id}`, add)
+    //     .then(res => {
+
+
+    //         console.log('add', res)
+
+
+    //     })
+     
+    //     instance.put(`customers/${id}`, add)
+    //     .then(res => {
+
+
+    //         console.log('add', res)
+
+
+    //     })
+
+
+
+    // }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //     function add() {
+    //         let posth = {
+    //         companyName: "zdxfc",
+    //         contactName: "Nizam",
+    //         contactTitle: "hajdfshsklfjs",
+    //         address: {
+    //             street: "Osakuce.",
+    //             city: "Lenkaran",
+    //             region: "NULL",
+    //             postalCode: "WA1 1DP",
+    //             country: "Aze",
+    //             phone: "aejsfkjdlawklef"
+    //         }
+    //     }
+    //     let url = `https://northwind.vercel.app/api/customers`
+
+    //     fetch(url, {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-type': 'application/json'
+    //         },
+    //         body: JSON.stringify(posth)
+    //     })
+    //         .then(res => res.json())
+    //         .then(d => console.log(d))
+
+    // }
+
+
+
+
+
+
+
+
+
+    //            function add(id) {
+
+    //         let url = `https://northwind.vercel.app/api/customers/ `+ id
+
+    //         fetch(url, {
+    //   method: 'DELETE',
+    // })
+    //             .then(res => res.json())
+    //             .then(d => console.log(d))
+
+    //     }
+
+
+
+
+
+    // function add() {
+    //         let put1 = {
+    //         companyName: "zdxfc",
+    //         contactName: "Nizam",
+    //         contactTitle: "hajdfshsklfjs",
+    //         address: {
+    //             street: "Osakuce.",
+    //             city: "Lenkaran",
+    //             region: "NULL",
+    //             postalCode: "WA1 1DP",
+    //             country: "Aze",
+    //             phone: "aejsfkjdlawklef"
+    //         }
+    //     }
+    //     let url = `https://northwind.vercel.app/api/customers`
+
+    //     fetch(url, {
+    //         method: 'PUT',
+    //         headers: {
+    //             'Content-type': 'application/json'
+    //         },
+    //         body: JSON.stringify(put1)
+    //     })
+    //         .then(res => res.json())
+    //         .then(d => console.log(d))
+
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bahalini tap , orta qiymeti tap. api ferqlidi , regionu null olan , londunu tap , c-ni tap ---- instance
+
+
+    // function add() {
+    //     const instance = axios.create({
+    //     baseURL: 'https://northwind.vercel.app/api',
+    //     timeout: 1000
+    // });
+    //     instance.get("products")
+    //         .then(res => {
+    //             let price = res.data.sort(function (a, b) { return b.unitPrice - a.unitPrice })
+    //             console.log(price[0]);
+
+
+
+
+    //             let arr = res.data
+    //             let n = res.data.length
+
+    //             function divideAndSum(arr, n) {
+    //                 var sum = 0;
+
+    //                 for (i = 0; i < n; i++) {
+    //                   sum += arr[i]?.price 
+
+    //             }
+
+    //             let total = sum / n
+
+
+
+    //                 console.log(sum);
+    //                 console.log(total);
+
+    //             }
+    //             divideAndSum(arr, n)
+    //         });
+
+
+
+
+//     const found = res.data.filter(element => element.contactName.slice(0,1) == "C");
+
+// console.log(found);
+
+
+// let found2 = res.data.filter(q => q.address.city == "London");
+//     console.log(found2);
+
+
+
+
+
+
+// let found3 = res.data.filter(q => q.address.region == "NULL");
+//     console.log(found3);
+        
+    //         }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// orta qiymeti tap. api ferqlidi - dede baba usulu
+
+    // function add() {
+
+    //     axios.get(`https://fakestoreapi.com/products`)
+    //         .then(res => {
+    //             // console.log(res);
+    //             let arr = res.data
+    //             let n = res.data.length
+
+    //             function divideAndSum(arr, n) {
+    //                 var sum = 0;
+
+    //                 for (i = 0; i < n; i++) {
+    //                   sum += arr[i]?.price 
+
+    //             }
+
+    //             let total = sum / n
+
+
+
+    //                 console.log(sum);
+    //                 console.log(total);
+
+    //             }
+    //             divideAndSum(arr, n)
+    //         })
+    // }
+
+
+
+
+
+
+
+// c tap dede baba usulu
+
+
+
+    // function add() {
+
+
+    //     axios.get(`https://northwind.vercel.app/api/customers`)
+    //         .then(res => {
+
+
+    //             const found = res.data.filter(element => element.contactName.slice(0,1) == "C");
+
+    //             console.log(found);
+
+    //         })
+    // }
+
+
+
+
+
+
+
+// londunu tap    dede baba usulu
+
+//       function add() {
+
+
+
+
+
+
+
+//         axios.get(`https://northwind.vercel.app/api/customers `)
+//             .then(res => {         
+
+// let found = res.data.filter(q => q.address.city == "London");
+//     console.log(found);
+               
+
+//             })
+//     }
+
+
+
+
+
+
+
+
+
+
+ 
+//regionu null olan    dede baba usulu
+
+//       function add() {
+
+
+//         axios.get(`https://northwind.vercel.app/api/customers `)
+//             .then(res => {         
+
+// let found = res.data.filter(q => q.address.region == "NULL");
+//     console.log(found);
+               
+
+//             })
+//     }
+
+
+
+
+
+
+
+// 2-ci api tasklari 
+
+
+
+
+
+
+// function add(){
+    
+// const instance = axios.create({
+//         baseURL: ' https://jsonplaceholder.typicode.com',
+//         timeout: 1000
+//     });
+
+//     instance.get("albums")
+//         .then(res => {
+        
+//              let found = res.data.filter(q => q.userId == 1);
+//     console.log(found);
+               
+
+
+            
+//         })
+
+
+
+
+//         instance.get("posts")
+//         .then(res => {
+        
+//              let found1 = res.data.filter(q => q.id == 1);
+//     console.log(found1);
+               
+
+
+            
+//         })
+
+// }
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
